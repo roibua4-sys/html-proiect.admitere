@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abstract painting</title>
+  <style>
+    
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      height: 748px;
+      width: 748px;
+      display: grid;
+      background-color: #2F4F4F;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+      gap: 9px;
+      border: 10px solid #2F4F4F;
+      
+      
+    }
+
+    .item {
+      background-color:#FFFFF0;
+    }
+
+    .square {
+      background-color: #FF6347;
+      grid-row: span 2;
+      
+    }
+
+    .square1 {
+      grid-column: span 3;
+      background-color: #ADD8E6;
+    }
+
+    .square2 {
+      
+      background-color: #FFA500;
+    }
+
+    .square3 {
+      grid-area: 2 / 2 / 4 /4
+  
+    }
+
+    .square3 {
+      border-radius: 10px;
+      text-align: center;
+      
+    }
+
+    .square4 {
+      background-color: #6B8E23;
+      border-bottom: 5px solid #2F4F4F;
+    }
+
+    .square5 {
+      grid-row: span 2;
+      
+    }
+
+    .square6 {
+      background-color: #F9D01E;
+    }
+
+    .square7 {
+      background-color: #232629;
+    }
+     h1 {
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+      
+     }
+
+  </style>
+
+
+
+
+<body>
+  
+
+  <div class="container">
+    <div class="item square"></div>
+    <div class="item square1"></div>
+    <div class="item square2"></div>
+    <div class="item square3">
+      <h1> <a href="https://en.wikipedia.org/wiki/Piet_Mondrian">Piet Mondriaan</a> inspired painting</h1>
+     
+      <img src="Piet_Mondriaan.jpg" width="150" height="150">
+     
+    </div>
+
+    <div class="item square4"></div>
+    <div class="item square5"></div>
+
+    <div class="item"></div>
+    <div class="item square6"></div>
+    <div class="item square7"></div>
+  </div>
+</body>
+
+</html>
